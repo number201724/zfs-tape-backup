@@ -1,0 +1,5 @@
+30  4	1 * *	root	screen -AmdS tape_backup /data/scripts/tape_backup.sh full
+30  4	7 * *	root	screen -AmdS tape_backup /data/scripts/tape_backup.sh inc1
+30  4	14 * *	root	screen -AmdS tape_backup /data/scripts/tape_backup.sh inc2
+30  4	21 * *	root	screen -AmdS tape_backup /data/scripts/tape_backup.sh inc3
+30  4	28 * *	root	screen -AmdS tape_backup /data/scripts/tape_backup.sh inc4
