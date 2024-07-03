@@ -1,7 +1,6 @@
 #!/bin/sh
 #
-# apt install -y mt-st
-# ltfs
+# apt install -y mt-st zstd
 #
 #
 TAPE_MOUNTPOINT=/tape
